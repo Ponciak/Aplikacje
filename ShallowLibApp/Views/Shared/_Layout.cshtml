@@ -41,7 +41,7 @@
                             <ul class="dropdown-menu bg-jumpers" aria-labelledby="navbarDropdownMenuLink">
                                 <li>
                                     <a class="dropdown-item dropdown-toggle" asp-area="" asp-controller="Home" asp-action="Index" asp-route-id="ALL">Wszystkie</a>
-                                    <ul class="dropdown-menu " style="top:0px;left:80px">
+                                    <ul class="dropdown-menu " style="top:0px;left:100px">
                                         <li>
                                             <a class="dropdown-item" asp-area="" asp-controller="Home" asp-action="MediaTypeStat" asp-route-id="ALL,false">Dostępne</a>
                                         </li>
@@ -52,7 +52,7 @@
                                 </li>
                                 <li>
                                     <a class="dropdown-item dropdown-toggle" asp-area="" asp-controller="Home" asp-action="Index" asp-route-id="DVD">DVD</a>
-                                    <ul class="dropdown-menu " style="top:35px;left:80px">
+                                    <ul class="dropdown-menu " style="top:35px;left:100px">
                                         <li>
                                             <a class="dropdown-item" asp-area="" asp-controller="Home" asp-action="MediaTypeStat" asp-route-id="DVD,false">Dostępne</a>
                                         </li>
@@ -63,7 +63,7 @@
                                 </li>
                                 <li>
                                     <a class="dropdown-item dropdown-toggle" asp-area="" asp-controller="Home" asp-action="Index" asp-route-id="CD">CD</a>
-                                    <ul class="dropdown-menu " style="top:70px;left:80px">
+                                    <ul class="dropdown-menu " style="top:70px;left:100px">
                                         <li>
                                             <a class="dropdown-item" asp-area="" asp-controller="Home" asp-action="MediaTypeStat" asp-route-id="CD,false" >Dostępne</a>
                                         </li>
@@ -74,7 +74,7 @@
                                 </li>
                                 <li>
                                     <a class="dropdown-item dropdown-toggle" asp-area="" asp-controller="Home" asp-action="Index" asp-route-id="Book">Książki</a>
-                                    <ul class="dropdown-menu " style="top:100px;left:80px">
+                                    <ul class="dropdown-menu " style="top:100px;left:100px">
                                         <li>
                                             <a class="dropdown-item" asp-area="" asp-controller="Home" asp-action="MediaTypeStat" asp-route-id="Book,false">Dostępne</a>
                                         </li>
@@ -94,9 +94,9 @@
                             <a class="nav-link"  asp-area="" asp-controller="Home" asp-action="Myrent" >Moje wypożyczone</a>
                         </li>
                         <div>
-                            <form class="form-inline">
-                                <input class="form-control mr-sm-2 " name="searchString" type="search" placeholder="Wyszukaj" aria-label="Wyszukaj ">
-                                <button class="btn btn-light" type="submit">Znajdź</button>
+                            <form class="form-inline ">
+                                <input class="form-control mr-sm-2  " name="searchString" type="search" placeholder="Wyszukaj" aria-label="Wyszukaj ">
+                                <button class="btn btn-light col-sm-2" type="submit">Znajdź</button>
                             </form>
                         </div>
                     }
